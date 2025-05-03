@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For Hafsa</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff0f3;
+      text-align: center;
+      padding-top: 100px;
+    }
+    .heart {
+      font-size: 100px;
+      color: red;
+    }
+    .click-text {
+      font-size: 20px;
+      color: #007BFF;
+      cursor: pointer;
+      text-decoration: underline;
+      margin-top: 10px;
+    }
+    .message {
+      margin-top: 40px;
+      font-size: 24px;
+      color: #333;
+      display: none;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="heart">♥</div>
+  <div class="click-text" onclick="showMessage()">Click here</div>
+  <div class="message" id="loveMessage">
+    I love Hafsa so much. I didn't mean to make you cry — I just want you to be happy.
+  </div>
+
+  <script>
+    function showMessage() {
+      document.getElementById('loveMessage').style.display = 'block';
+    }
+  </script>
+
+</body>
+</html>
